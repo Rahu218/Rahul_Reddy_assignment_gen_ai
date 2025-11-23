@@ -1,0 +1,12 @@
+duckdb
+pandas
+openai
+langchain
+langgraph
+sqlglot
+sqlparse
+python-dotenv
+chromadb
+tiktoken
+streamlit
+matplotlib

@@ -1,0 +1,71 @@
+
+## Executive Summary
+
+Between March and June 2022, sales activity generated significant revenue of 71,653,294 from 128,975 orders. The business experienced a substantial spike in revenue in April, peaking before witnessing a sequential decline through May and June. Sales were highly concentrated in a few key product categories—particularly "Set," "kurta," and "Western Dress"—and driven predominantly by B2C transactions. Maharashtra, Karnataka, and Telangana emerged as major revenue contributors, while operational challenges were identified around high cancellation rates and issues with non-specified fulfillment channels. Major opportunities and risks are linked to optimizing the top-performing categories and addressing fulfillment-related cancellations.
+
+## Key Performance Metrics
+
+- **Total Revenue:** 71,653,294  
+- **Total Quantity Sold:** 116,649  
+- **Average Order Value (AOV):** 555.56  
+- **Total Orders:** 128,975
+- **MoM Revenue Trend:** Revenue peaked in April (26,489,651) and declined steadily in May (24,141,584) and June (20,927,249)
+- **Cancellation Rate:** 9.78% (approx. 1 in 10 orders cancelled or unshipped)
+- **Fulfillment Rate:** 84.89% of orders were shipped; 5.18% unshipped; 4.60% cancelled
+- **Fulfillment Channel Split:** 69.55% of sales not fulfilled via specified methods; 30.45% fulfilled by Easy Ship
+- **B2B vs B2C:** B2C constituted the vast majority (128,104 orders and 71,061,600 in revenue); B2B represented a small fraction (871 orders; 591,694 revenue) and saw a declining trend across the observed months
+- **Major Risk Item:** High cancellations concentrated where no fulfillment method was specified
+
+## Category & Product Insights
+
+- **Best-Performing Categories:**  
+  - "Set" led by a wide margin (35,696,431; 49.82% of revenue)
+  - "kurta" (27.20%) and "Western Dress" (14.18%) were the next major contributors
+- **Top SKUs by Revenue:**  
+  - JNE3797 (2,596,267), J0230 (1,793,957), SET268 (1,239,160), J0341 (1,164,263), J0003 (884,214)
+- **Size-Level Insights:**  
+  - M (20,447 sold), L (20,000), and XL (18,923) were most popular, reflecting strong preference for standard sizes
+  - Largest cancellations occurred in M, L, and S size ranges
+  - Larger and "Free" sizes contributed minimally to both sales and cancellations
+- **Underperforming Segments:**  
+  - Categories such as "Dupatta," "Saree," and "Ethnic Dress" contributed negligibly to revenue
+  - All categories exhibited declining sales volumes after April
+
+## Geography & Fulfillment Performance
+
+- **Top Revenue-Generating States:**  
+  - Maharashtra (12,193,012), Karnataka (9,632,695), Telangana (6,287,266), Uttar Pradesh, and Tamil Nadu
+- **Growth Concentration:**  
+  - Revenue was dominated by a handful of states; Maharashtra accounted for over 26% more revenue than the next leading state
+- **Fulfillment Channel Performance:**  
+  - Majority of cancellations associated with orders not assigned a specific fulfillment method
+  - Easy Ship handled 30% of fulfilled orders; no cancellations were recorded from this method in the dataset
+- **Operational Issues by State:**  
+  - Highest issue rates in APO, Rajshthan, and Meghalaya (though on low order volumes)
+  - Punjab and Odisha had lower percentage issue rates but higher total affected orders due to larger sales volumes
+
+## Operational & Risk Insights
+
+- **Cancellations & Unshipped Impact:**  
+  - 9.78% overall cancellation/unshipped rate
+  - 5,935 cancellations were exclusively tied to orders lacking a specified fulfillment channel
+- **Revenue at Risk:**  
+  - High cancellation rates especially where fulfillment was unspecified, affecting both revenue and customer experience
+- **Operational Bottlenecks:**  
+  - Non-standard fulfillment channel usage correlated with fulfillment failures and order issues
+  - Data inconsistencies (e.g., state name variations) may also impact operational visibility
+
+## Recommendations
+
+1. **Inventory Allocation:**  
+   - Focus inventory and replenishment efforts on top-performing categories ("Set," "kurta," "Western Dress") and best-selling SKUs (notably JNE3797, J0230, and SET268), especially in standard sizes (M, L, XL, XXL, S)
+2. **Fulfillment Process Improvement:**  
+   - Allocate more orders to reliable fulfillment channels (such as Easy Ship) to minimize cancellations; review and reduce the use of non-specified fulfillment methods
+3. **Targeted Marketing and Regional Penetration:**  
+   - Prioritize targeted marketing in Maharashtra, Karnataka, and Telangana to build on existing strengths, while exploring growth initiatives in lower-performing but high-potential regions
+4. **Cancellation & Operational Risk Reduction:**  
+   - Implement stricter order confirmation and shipment processes, particularly for standard size inventory to mitigate high cancellation rates
+   - Address data quality issues to improve accuracy in state-wise performance and fulfillment analysis
+5. **Monitor Declining SEgments:**  
+   - Evaluate underperforming categories for either repositioning, focused promotions, or potential phase-out to optimize assortment and maximize revenue growth
+

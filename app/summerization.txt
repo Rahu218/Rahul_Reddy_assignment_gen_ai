@@ -1,0 +1,106 @@
+Q: What is the total number of orders, total revenue of the dataset?
+A: There were 128,975 total orders with a total revenue of 71,653,294. No additional insights can be inferred from the data provided.
+
+Q: What date range does the data span (start date to end date)?
+A: The earliest date in the sales data is 2022-03-31 and the latest date is 2022-06-29. The data spans nearly three months.
+
+Q: How many unique Categories, Styles, Sizes, and ship-states are present?
+A: There are 9 unique categories, 1,377 unique styles, 11 unique sizes, and 69 unique ship states in the data. This indicates a diverse range of products and broad geographic distribution.
+
+Q: What is the total Revenue, total Quantity sold, and total Amount collected?
+A: The total revenue is 71,653,294.0, the total quantity sold is 116,649.0, and the total amount collected is 78,592,678.3. The amount collected exceeds the revenue by 6,939,384.3, suggesting possible additional charges or sources of income beyond direct revenue.
+
+Q: What is the month-over-month revenue trend for 2022 year?
+A: From January to December 2022, revenue was reported only from March to June. March had the lowest monthly revenue at 94,810.0, while April had the highest at 26,489,651.0. Revenues decreased in May (24,141,584.0) and further in June (20,927,249.0). No revenue was reported for January, February, or for July to December.
+
+Q: What is the overall cancellation rate (percentage of orders cancelled or unshipped)?
+A: The cancellation rate percentage is 9.78%. This means that approximately 1 in every 10 sales orders was either cancelled or unshipped.
+
+Q: What is the average order value (AOV = Revenue / total orders)?
+A: The average order value is 555.56.
+
+Q: What is the B2B vs B2C split in terms of order count and revenue?
+A: For B2B orders, there were 871 orders with a total revenue of 591,694. For non-B2B orders, there were 128,104 orders with a total revenue of 71,061,600. Non-B2B orders significantly outnumber B2B orders and contribute the vast majority of total revenue.
+
+Q: Which Category generated the highest Revenue?
+A: The category with the highest total revenue is "Set" with a total revenue of 35,696,431.
+
+Q: What is the revenue share percentage of each Category?
+A: The "Set" category contributed the highest revenue share at 49.82%, followed by "kurta" at 27.20% and "Western Dress" at 14.18%. The remaining categories each contributed less than 7%, with "Dupatta" contributing the least at 0.001%. Most revenue came from just three categories, indicating a high concentration of sales in those areas.
+
+Q: Which Category grew or declined the most? on month-over-month basis for 2022?
+A: From January to December 2022, the 'Set' category had the highest monthly sales, peaking at 15,506,675.56 in April with 18,143 units sold, followed by 'kurta' with 8,017,145.48 and 'Top' with 1,821,893.22 in the same month. 'Western Dress' sales also rose significantly to 4,381,304.41 in May with 5,408 units. Across all categories, sales and quantities generally peaked in April and May, then declined through June. 'Blouse', 'Ethnic Dress', and 'Saree' had much lower sales volumes compared to 'Set', 'kurta', and 'Western Dress'.
+
+Q: What are the top ship-states by Revenue?
+A: Maharashtra had the highest total revenue at 12,193,012.0, followed by Karnataka at 9,632,695.0 and Telangana at 6,287,266.0. The lowest total revenues were from smaller states and territories, such as Goa (15,781.0), Sikkim (2,703.0), and Manipur (2,631.0). Notably, some states appear multiple times with different capitalizations or spellings, which indicates possible data inconsistencies.
+
+Q: Top 5 states contributed the most to growth in terms of Revenue for 2022 year?
+A: The top five ship-states by total revenue in 2022 are Maharashtra (₹12,193,012), Karnataka (₹9,632,695), Telangana (₹6,287,266), Uttar Pradesh (₹6,193,264), and Tamil Nadu (₹5,982,240). Maharashtra led by a significant margin, generating over 26% more revenue than Karnataka, the next highest state.
+
+Q: Top 5 states contributed the least to growth in terms of Revenue for 2022 year?
+A: No summary available.
+
+Q: What percentage of orders were fulfilled by Easy Ship, Merchant, and FBA?
+A: 69.55% of sales were not fulfilled by any specific method, while 30.45% were fulfilled by Easy Ship. The majority of sales did not use Easy Ship fulfillment.
+
+Q: Which fulfillment method has the highest cancellation or unshipped rate?
+A: The "None" fulfillment method has the highest cancellation/unshipped rate at approximately 13.48%.
+
+Q: What is the B2B contribution to total revenue and orders?
+A: For B2B=False, the total revenue is 71,061,600.0 from 128,104 orders. For B2B=True, the total revenue is 591,694.0 from 871 orders. Non-B2B orders contribute the vast majority of both revenue and order count.
+
+Q: Are B2B orders growing or shrinking over the different months in 2022?
+A: From April to June 2022, total B2B sales amounted to 234,514.86 in April (343 units), 188,158.64 in May (263 units), and 168,547.29 in June (234 units). Both total amount and quantity decreased each month over this period.
+
+Q: What are the best-performing Styles or SKUs by Revenue? Give me top 5
+A: The top 5 styles by total revenue are JNE3797 with 2,596,267.0, J0230 with 1,793,957.0, SET268 with 1,239,160.0, J0341 with 1,164,263.0, and J0003 with 884,214.0. JNE3797 leads by a significant margin, generating over 800,000 more in revenue than the next highest style, J0230.
+
+Q: What are the worst-performing SKUs with declining sales? Give me bottom 5
+A: No summary available.
+
+Q: Which Sizes sell the most? give me top 5
+A: The top five sizes by total quantity sold are M (20,447), L (20,000), XL (18,923), XXL (16,516), and S (15,331). Size M has the highest total quantity, closely followed by size L, indicating strong demand for medium and large sizes.
+
+Q: Which Sizes sell the least? give me top 5
+A: The five sizes with the lowest total quantities sold are Free (366), 4XL (398), 5XL (513), 6XL (688), and XS (9,943). Among these, Free has the lowest total quantity, while XS has the highest. There is a significant increase in total quantity from 6XL to XS.
+
+Q: Are any specific Sizes over-represented in cancellations?
+A: Size M had the highest number of cancellations with 1,056, followed by L with 989 and S with 863. The majority of cancellations occurred with standard sizes (M, L, S, XL, XXL, XS), while larger sizes (3XL and above) and the "Free" size saw significantly fewer cancellations, each with fewer than 600.
+
+Q: What percentage of orders were Shipped, Cancelled, and Unshipped?
+A: The majority of sales, 84.89%, have a "Shipped" courier status. "None" and "Unshipped" statuses account for 5.33% and 5.18% of sales respectively, while "Cancelled" represents 4.60%. Most orders are successfully shipped, with a small percentage either unshipped, cancelled, or lacking a courier status.
+
+Q: Which states have operational issues such as higher cancellation or unshipped rates? Give me top 5
+A: The top 5 ship-states with the highest issue rates are:
+1. APO: 1 cancelled order out of 1 total order, issue rate 1.0.
+2. Rajshthan: 1 cancelled and 1 unshipped order out of 3 total orders, issue rate 0.67.
+3. Meghalaya: 1 cancelled order out of 3 total orders, issue rate 0.33.
+4. Punjab: 3 cancelled and 2 unshipped orders out of 34 total orders, issue rate 0.15.
+5. Odisha: 1 cancelled and 2 unshipped orders out of 21 total orders, issue rate 0.14.
+
+APO has the highest issue rate, with all orders experiencing issues. Although Punjab and Odisha have lower issue rates, they have a higher total number of orders, indicating that even a small issue rate can affect many orders due to higher volumes.
+
+Q: What is the monthly revenue trend for the entire dataset period?
+A: The total revenue by month is as follows: March 2022 - 94,810.0; April 2022 - 26,489,651.0; May 2022 - 24,141,584.0; June 2022 - 20,927,249.0. Revenue peaked in April 2022 and then decreased each subsequent month.
+
+Q: Which month had the highest revenue and which had the lowest in Year 2022?
+A: No summary available.
+
+Q: What were the top categories behind revenue growth the full period?
+A: The "Set" category had the highest total revenue at 35,696,431, followed by "kurta" with 19,486,464, and "Western Dress" with 10,159,456. The lowest total revenue was in the "Dupatta" category at just 915. There is a significant gap between the top three categories and the rest, indicating that most revenue comes from a small number of categories.
+
+Q: What fulfilment issues contributed to cancellations?
+A: There were 5,935 cancellations, all of which were for orders not fulfilled by any specified party. No other fulfillment sources had cancellations recorded in the data.
+
+Q: Which products drove most of the overall performance (positive or negative)?
+A: No summary available.
+
+Q: Which States should be prioritized for growth in Revenue? so give me states with declining revenue trends
+A: No summary available.
+
+Q: What operational improvements (fulfillment methods) can help reduce cancellations?
+A: No summary available.
+
+Q: Which SKUs should be stocked up based on Qty orders?
+A: No summary available.
+
