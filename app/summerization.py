@@ -71,21 +71,21 @@ def get_final_summary():
 
     all_questions = level_0 + level_1 + level_2 + level_3 + level_4 + level_5 + level_7 + level_8
 
-    # context = ""
+    context = ""
 
-    # for question in all_questions:
-    #     responce = orchestrate_question(question)
-    #     nl_answer = responce.get("nl_summary", "No summary available.")
-    #     # add question and responce to context
-    #     context += f"Q: {question}\nA: {nl_answer}\n\n"
+    for question in all_questions:
+        responce = orchestrate_question(question)
+        nl_answer = responce.get("nl_summary", "No summary available.")
+        # add question and responce to context
+        context += f"Q: {question}\nA: {nl_answer}\n\n"
     
     # create a txt file and copy past the context
-    # with open("app/summerization.txt", "w", encoding="utf-8") as f:
-    #     f.write(context)
+    with open("app/summerization.txt", "w", encoding="utf-8") as f:
+        f.write(context)
 
     # read the context from the file
-    with open("app/summerization.txt", "r", encoding="utf-8") as f:
-        context = f.read()
+    # with open("app/summerization.txt", "r", encoding="utf-8") as f:
+    #     context = f.read()
     # print(context)
 
     prompt = f"""
